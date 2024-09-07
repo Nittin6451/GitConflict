@@ -11,7 +11,7 @@ import utility.HelperClass;
 public class HookClass {
 	@Before
 	public static void setUp() {
-		HelperClass.setUpDriver("chrome");
+		HelperClass.setUpDriver("edge");
 	}
 	
 	@After
